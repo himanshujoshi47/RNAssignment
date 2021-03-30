@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders and have required elements renders correctly 1`] = `
+<View>
+  <Text
+    style={
+      Object {
+        "color": "#222222",
+        "fontSize": 18,
+        "marginBottom": 16,
+        "marginTop": 15,
+      }
+    }
+    testID="food-list-item-title"
+  >
+    Hey, Its me
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ECECEC",
+        "height": 1,
+      }
+    }
+  />
+</View>
+`;

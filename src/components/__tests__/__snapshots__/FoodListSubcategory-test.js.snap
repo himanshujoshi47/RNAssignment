@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders and have required elements renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingHorizontal": 4,
+      "paddingTop": 4,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#222222",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "marginBottom": 15,
+            "marginTop": 24,
+          },
+          Object {
+            "color": "#333",
+          },
+        ]
+      }
+      testID="food-list-subcat-title"
+    >
+      BEEF
+    </Text>
+    <View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#222222",
+              "fontSize": 18,
+              "marginBottom": 16,
+              "marginTop": 15,
+            }
+          }
+          testID="food-list-item-title"
+        >
+          Beef (93/7 ground)
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#222222",
+              "fontSize": 18,
+              "marginBottom": 16,
+              "marginTop": 15,
+            }
+          }
+          testID="food-list-item-title"
+        >
+          Bison
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#222222",
+              "fontSize": 18,
+              "marginBottom": 16,
+              "marginTop": 15,
+            }
+          }
+          testID="food-list-item-title"
+        >
+          Filet Mignon (trim fat)
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#222222",
+              "fontSize": 18,
+              "marginBottom": 16,
+              "marginTop": 15,
+            }
+          }
+          testID="food-list-item-title"
+        >
+          Kangaroo
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#222222",
+              "fontSize": 18,
+              "marginBottom": 16,
+              "marginTop": 15,
+            }
+          }
+          testID="food-list-item-title"
+        >
+          Sirloin (ground)
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#222222",
+              "fontSize": 18,
+              "marginBottom": 16,
+              "marginTop": 15,
+            }
+          }
+          testID="food-list-item-title"
+        >
+          Sirloin Strip Steak
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#222222",
+              "fontSize": 18,
+              "marginBottom": 16,
+              "marginTop": 15,
+            }
+          }
+          testID="food-list-item-title"
+        >
+          Veal (Ground)
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#222222",
+              "fontSize": 18,
+              "marginBottom": 16,
+              "marginTop": 15,
+            }
+          }
+          testID="food-list-item-title"
+        >
+          Venison
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ECECEC",
+              "height": 1,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders and behave correctly renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 4,
+        "paddingHorizontal": 8,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="approved-food-cat-btn"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginBottom": 8,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://s3-us-west-2.amazonaws.com/viking.approvedfoodlistimages/protein%403x.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "borderRadius": 4,
+                "height": 44,
+                "width": 44,
+              },
+              Object {
+                "backgroundColor": "#F168A4",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+              "fontWeight": "500",
+              "marginHorizontal": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#222222",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#F168A4",
+                },
+              ]
+            }
+            testID="food-list-cat-title"
+          >
+            Lean Protein
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#222222",
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+            testID="food-list-cat-serving-size"
+          >
+             (4 Oz Servings)
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders and behave correctly renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#ECECEC",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "100%",
+        "justifyContent": "flex-end",
+        "padding": 24,
+        "width": "100%",
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={false}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="large"
+      testID="food-list-loader"
+    />
+  </View>
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    visible={false}
+  >
+    <RNCSafeAreaView
+      style={
+        Object {
+          "backgroundColor": "#ECECEC",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": "100%",
+            "padding": 24,
+            "width": "100%",
+          }
+        }
+      >
+        <RCTScrollView
+          ItemSeparatorComponent={[Function]}
+          ListHeaderComponent={
+            <Memo(FoodListHeader)
+              didCloseFoodListModal={[Function]}
+              performSearch={[Function]}
+            />
+          }
+          data={Array []}
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          onContentSizeChange={[Function]}
+          onEndReachedThreshold={2}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          showsVerticalScrollIndicator={false}
+          stickyHeaderIndices={Array []}
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+            >
+              <View>
+                <Text
+                  style={
+                    Object {
+                      "color": "#222222",
+                      "fontSize": 24,
+                      "fontWeight": "500",
+                      "marginVertical": 24,
+                    }
+                  }
+                  testID="approved-food-list-title"
+                >
+                  Approved Foods List
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#FFFFFF4D",
+                      "borderRadius": 4,
+                      "flexDirection": "row",
+                      "marginBottom": 16,
+                      "padding": 16,
+                    }
+                  }
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                    onChangeText={[Function]}
+                    placeholder="Try searching fat, sauces names..."
+                    placeholderTextColor="#CCCCCC"
+                    rejectResponderTermination={true}
+                    style={
+                      Object {
+                        "color": "#222222",
+                        "flex": 1,
+                        "fontSize": 18,
+                        "fontWeight": "500",
+                        "marginLeft": 8,
+                      }
+                    }
+                    testID="food-list-search-input"
+                    underlineColorAndroid="transparent"
+                    value=""
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </RNCSafeAreaView>
+  </Modal>
+</RCTSafeAreaView>
+`;
