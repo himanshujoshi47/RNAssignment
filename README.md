@@ -1,5 +1,5 @@
-# RNAssignment-Quovantis
-React Native Assignment Given By Quovantis
+# RNAssignment
+React Native Assignment
 
 # Prerequisite:
 Run command `npm install && cd ios/ && pod install && cd ..` from root folder.
